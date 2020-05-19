@@ -4,6 +4,9 @@ public class WeatherData implements Data{
     public Float temperature;
     public Float humidity;
 
+    public WeatherData() {
+    }
+
     public WeatherData(Float temperature, Float humidity) {
         this.temperature = temperature;
         this.humidity = humidity;

@@ -14,6 +14,7 @@ public class WeatherStation implements Subject{
 
     public WeatherStation(WeatherData weatherData) {
         this.weatherData = weatherData;
+        observers = new ArrayList<>();
         notifyObservers();
     }
 

@@ -4,6 +4,10 @@ public class CurrentDisplay implements Observer{
 
     WeatherData weatherData;
 
+    public CurrentDisplay() {
+        weatherData = new WeatherData();
+    }
+
     @Override
     public void update(Data data) {
         WeatherData s = (WeatherData)data;
