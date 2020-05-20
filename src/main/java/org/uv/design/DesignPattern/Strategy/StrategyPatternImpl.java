@@ -11,7 +11,7 @@ import org.uv.design.DesignPattern.Strategy.Ducks.Duck;
 import org.uv.design.DesignPattern.Strategy.Ducks.MallardDuck;
 import org.uv.design.DesignPattern.Strategy.Ducks.RubberDuck;
 
-public class StrategyPattern {
+public class StrategyPatternImpl {
 
     public static void simUDuckApp(){
         Duck mallardDuck = new MallardDuck();

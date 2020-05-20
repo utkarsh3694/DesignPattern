@@ -1,6 +1,6 @@
 package org.uv.design.DesignPattern.Observer;
 
-public class ObserverPattern {
+public class ObserverPatternImpl {
     public static void weatherStation(){
 
         WeatherData weatherData = new WeatherData(100f,80f);
