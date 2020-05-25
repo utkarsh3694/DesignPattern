@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.uv.design.DesignPattern.Decorator.DecoratorPatternImpl;
 import org.uv.design.DesignPattern.Observer.ObserverPatternImpl;
+import org.uv.design.DesignPattern.Singleton.SingletonImpl;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class DesignPatternApplication {
@@ -14,7 +15,8 @@ public class DesignPatternApplication {
 		System.out.println("RUNNING!!!");
 //		StrategyPatternImpl.simUDuckApp();
 //		ObserverPatternImpl.weatherStation();
-		DecoratorPatternImpl.DecoratorPatternImpl();
+//		DecoratorPatternImpl.DecoratorPatternImpl();
+		SingletonImpl.singleimpl();
 	}
 
 }
